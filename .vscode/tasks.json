@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "compile",
+      "label": "npm: compile",
+      "path": "extension-in-subfolder/",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": [
+        "$tsc"
+      ]
+    }
+  ]
+}
